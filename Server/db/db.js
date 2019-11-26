@@ -1,0 +1,1 @@
+const mongoURI = mongoose.connet('mongodb+srv://jsonseidler:Dasani1836@cluster0-u3aex.mongodb.net/test')

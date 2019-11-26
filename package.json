@@ -1,0 +1,27 @@
+{
+  "name": "solo-project",
+  "version": "1.0.0",
+  "description": "solo newsfeed project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server/server.js",
+    "dev": "NODE_ENV=development nodemon server/server.js"
+  },
+  "author": "Jason Seidler",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
