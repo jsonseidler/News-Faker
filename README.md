@@ -1,2 +1,2 @@
-# soloProject
-This is where I will talk about all of the amazing things my project can do if it can do anything at all.
+# News-Faker
+This application allows you to pull the top news stories and then manually create your own fake news if you so choose.
